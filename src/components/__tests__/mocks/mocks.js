@@ -1,0 +1,71 @@
+export const pokemonResponse = {
+  count: 1154,
+  next: "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  previous: null,
+  results: [
+    { name: "bulbasaur", url: "https://pokeapi.co/api/v2/pokemon/1/" },
+    { name: "ivysaur", url: "https://pokeapi.co/api/v2/pokemon/2/" },
+    { name: "venusaur", url: "https://pokeapi.co/api/v2/pokemon/3/" },
+    { name: "charmander", url: "https://pokeapi.co/api/v2/pokemon/4/" },
+    { name: "charmeleon", url: "https://pokeapi.co/api/v2/pokemon/5/" },
+    { name: "charizard", url: "https://pokeapi.co/api/v2/pokemon/6/" },
+    { name: "squirtle", url: "https://pokeapi.co/api/v2/pokemon/7/" },
+    { name: "wartortle", url: "https://pokeapi.co/api/v2/pokemon/8/" },
+    { name: "blastoise", url: "https://pokeapi.co/api/v2/pokemon/9/" },
+    { name: "caterpie", url: "https://pokeapi.co/api/v2/pokemon/10/" },
+    { name: "metapod", url: "https://pokeapi.co/api/v2/pokemon/11/" },
+    { name: "butterfree", url: "https://pokeapi.co/api/v2/pokemon/12/" },
+    { name: "weedle", url: "https://pokeapi.co/api/v2/pokemon/13/" },
+    { name: "kakuna", url: "https://pokeapi.co/api/v2/pokemon/14/" },
+    { name: "beedrill", url: "https://pokeapi.co/api/v2/pokemon/15/" },
+    { name: "pidgey", url: "https://pokeapi.co/api/v2/pokemon/16/" },
+    { name: "pidgeotto", url: "https://pokeapi.co/api/v2/pokemon/17/" },
+    { name: "pidgeot", url: "https://pokeapi.co/api/v2/pokemon/18/" },
+    { name: "rattata", url: "https://pokeapi.co/api/v2/pokemon/19/" },
+    { name: "raticate", url: "https://pokeapi.co/api/v2/pokemon/20/" },
+  ],
+};
+
+export const randomUserResponse = {
+  results: [
+    {
+      gender: "female",
+      name: { title: "Miss", first: "Jos", last: "Garica" },
+      location: {
+        street: { number: 3600, name: "Peatonal Querétaro" },
+        city: "Tecolutilla",
+        state: "Colima",
+        country: "Mexico",
+        postcode: 45959,
+        coordinates: { latitude: "27.6206", longitude: "18.1830" },
+        timezone: {
+          offset: "+8:00",
+          description: "Beijing, Perth, Singapore, Hong Kong",
+        },
+      },
+      email: "jos.garica@example.com",
+      login: {
+        uuid: "850d5bd4-658c-4617-8358-c2fff1066b89",
+        username: "lazyrabbit233",
+        password: "eastern",
+        salt: "vHYxeCbm",
+        md5: "36d209543263f3822af06ef5a199bebe",
+        sha1: "caafc07c200fa5e82bd9603ecdc1ce9c1efea53b",
+        sha256:
+          "9ce0bb604438f2c1690c2d411307142e8e12256598a97e5c83da3895d2609f52",
+      },
+      dob: { date: "2000-02-01T20:48:54.803Z", age: 22 },
+      registered: { date: "2022-02-05T18:27:45.753Z", age: 0 },
+      phone: "(600) 347 5581",
+      cell: "(626) 915 4644",
+      id: { name: "NSS", value: "53 68 63 4900 7" },
+      picture: {
+        large: "https://randomuser.me/api/portraits/women/95.jpg",
+        medium: "https://randomuser.me/api/portraits/med/women/95.jpg",
+        thumbnail: "https://randomuser.me/api/portraits/thumb/women/95.jpg",
+      },
+      nat: "MX",
+    },
+  ],
+  info: { seed: "7f32cc7122d9675c", results: 1, page: 1, version: "1.4" },
+};
